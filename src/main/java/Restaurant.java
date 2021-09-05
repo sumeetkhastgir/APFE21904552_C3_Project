@@ -86,6 +86,6 @@ public class Restaurant {
         int totalValue = 0;
         for (Item myItem : item) {
             totalValue += myItem.getPrice();}
-        return 123;
+        return totalValue;
     }
 }
